@@ -1,0 +1,22 @@
+# Keep participant data and generated derivatives out of the public repository.
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+build/
+dist/
+derivatives/
+data/
+*.eeg
+*.vhdr
+*.vmrk
+*.xdf
+*.fif
+*.fif.gz
+*.set
+*.edf
+*.bdf
+*.fdt
+.mne/
+.mpl/

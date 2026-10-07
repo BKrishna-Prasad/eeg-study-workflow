@@ -1,0 +1,114 @@
+{
+  "preprocessing": {
+    "l_freq": 1.0,
+    "h_freq": 40.0,
+    "notch_hz": null,
+    "montage": "standard_1020",
+    "rename_channels": {},
+    "channel_types": {},
+    "drop_channels": [],
+    "crop_s": null,
+    "bad_channel_method": "manual",
+    "bad_channels": [
+      "P3"
+    ],
+    "interpolate_bads": true,
+    "reference": "average",
+    "reference_stage": "before_ica",
+    "seed": 97
+  },
+  "ica": {
+    "n_components": 6,
+    "fit_l_freq": 1.0,
+    "seed": 97
+  },
+  "epoching": {
+    "mode": "annotations",
+    "length_s": 2.0,
+    "annotation_map": {
+      "Block/A": "A",
+      "Block/B": "B"
+    }
+  },
+  "autoreject": false,
+  "analysis": {
+    "spectral_conditions": [
+      "A",
+      "B"
+    ],
+    "feature_conditions": [
+      "A",
+      "B"
+    ],
+    "fmin": 1.0,
+    "fmax": 40.0,
+    "spectral_rois": {
+      "Left_Frontal": [
+        "F3",
+        "F7"
+      ],
+      "Right_Frontal": [
+        "F4",
+        "F8"
+      ],
+      "Midline": [
+        "Fz"
+      ]
+    },
+    "feature_rois": {
+      "Frontal": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "Fz",
+        "FC1",
+        "FC2"
+      ],
+      "Left_Frontal": [
+        "Fp1",
+        "F3",
+        "F7",
+        "FC1"
+      ],
+      "Right_Frontal": [
+        "Fp2",
+        "F4",
+        "F8",
+        "FC2"
+      ]
+    },
+    "bands": {
+      "Theta": [
+        4,
+        8
+      ],
+      "Alpha": [
+        8,
+        13
+      ],
+      "Beta": [
+        13,
+        30
+      ]
+    },
+    "morlet_conditions": [
+      "A",
+      "B"
+    ],
+    "morlet_channels": [
+      "F3"
+    ],
+    "morlet_freqs": [
+      6,
+      8,
+      10,
+      12,
+      15,
+      20,
+      25,
+      30
+    ],
+    "morlet_cycles_factor": 0.5
+  }
+}

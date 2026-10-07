@@ -1,0 +1,8 @@
+# Scientific versions verified locally with Python 3.10.19.
+# Optional artifact-review tools are configured in pyproject.toml.
+mne==1.11.0
+numpy==2.2.6
+scipy==1.14.1
+pandas==2.3.3
+matplotlib==3.10.8
+scikit-learn==1.7.2

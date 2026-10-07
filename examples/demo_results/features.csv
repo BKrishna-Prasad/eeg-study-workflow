@@ -1,0 +1,57 @@
+subject_id,condition,metric,value,units,channels,band_hz,n_epochs,demonstration_only
+demo-001,A,Frontal_Theta_mean_psd,2.14714701560501e-12,V^2/Hz,"Fp1,Fp2,F3,F4,Fz,FC1,FC2",4-8 inclusive,12,True
+demo-001,A,Frontal_Theta_ln_mean_psd,-26.866881124478667,ln(PSD / (1 V^2/Hz)),"Fp1,Fp2,F3,F4,Fz,FC1,FC2",4-8 inclusive,12,True
+demo-001,A,Frontal_Theta_mean_db,-130.11905547698655,dB re 1 V^2/Hz,"Fp1,Fp2,F3,F4,Fz,FC1,FC2",4-8 inclusive,12,True
+demo-001,A,Frontal_Alpha_mean_psd,3.119091424128558e-12,V^2/Hz,"Fp1,Fp2,F3,F4,Fz,FC1,FC2",8-13 inclusive,12,True
+demo-001,A,Frontal_Alpha_ln_mean_psd,-26.49347936673229,ln(PSD / (1 V^2/Hz)),"Fp1,Fp2,F3,F4,Fz,FC1,FC2",8-13 inclusive,12,True
+demo-001,A,Frontal_Alpha_mean_db,-131.12804843743547,dB re 1 V^2/Hz,"Fp1,Fp2,F3,F4,Fz,FC1,FC2",8-13 inclusive,12,True
+demo-001,A,Frontal_Beta_mean_psd,3.87147492472559e-13,V^2/Hz,"Fp1,Fp2,F3,F4,Fz,FC1,FC2",13-30 inclusive,12,True
+demo-001,A,Frontal_Beta_ln_mean_psd,-28.579970656987577,ln(PSD / (1 V^2/Hz)),"Fp1,Fp2,F3,F4,Fz,FC1,FC2",13-30 inclusive,12,True
+demo-001,A,Frontal_Beta_mean_db,-136.71932641504327,dB re 1 V^2/Hz,"Fp1,Fp2,F3,F4,Fz,FC1,FC2",13-30 inclusive,12,True
+demo-001,A,Left_Frontal_Theta_mean_psd,6.617240549408009e-13,V^2/Hz,"Fp1,F3,F7,FC1",4-8 inclusive,12,True
+demo-001,A,Left_Frontal_Theta_ln_mean_psd,-28.043927761310574,ln(PSD / (1 V^2/Hz)),"Fp1,F3,F7,FC1",4-8 inclusive,12,True
+demo-001,A,Left_Frontal_Theta_mean_db,-131.84110408776354,dB re 1 V^2/Hz,"Fp1,F3,F7,FC1",4-8 inclusive,12,True
+demo-001,A,Left_Frontal_Alpha_mean_psd,4.5515273805168805e-12,V^2/Hz,"Fp1,F3,F7,FC1",8-13 inclusive,12,True
+demo-001,A,Left_Frontal_Alpha_ln_mean_psd,-26.11555825127062,ln(PSD / (1 V^2/Hz)),"Fp1,F3,F7,FC1",8-13 inclusive,12,True
+demo-001,A,Left_Frontal_Alpha_mean_db,-130.53003296315026,dB re 1 V^2/Hz,"Fp1,F3,F7,FC1",8-13 inclusive,12,True
+demo-001,A,Left_Frontal_Beta_mean_psd,4.829005218395576e-13,V^2/Hz,"Fp1,F3,F7,FC1",13-30 inclusive,12,True
+demo-001,A,Left_Frontal_Beta_ln_mean_psd,-28.358965721394874,ln(PSD / (1 V^2/Hz)),"Fp1,F3,F7,FC1",13-30 inclusive,12,True
+demo-001,A,Left_Frontal_Beta_mean_db,-136.61836457314212,dB re 1 V^2/Hz,"Fp1,F3,F7,FC1",13-30 inclusive,12,True
+demo-001,A,Right_Frontal_Theta_mean_psd,3.973692725837508e-12,V^2/Hz,"Fp2,F4,F8,FC2",4-8 inclusive,12,True
+demo-001,A,Right_Frontal_Theta_ln_mean_psd,-26.25132529591631,ln(PSD / (1 V^2/Hz)),"Fp2,F4,F8,FC2",4-8 inclusive,12,True
+demo-001,A,Right_Frontal_Theta_mean_db,-129.37921218269028,dB re 1 V^2/Hz,"Fp2,F4,F8,FC2",4-8 inclusive,12,True
+demo-001,A,Right_Frontal_Alpha_mean_psd,1.9034206895029274e-12,V^2/Hz,"Fp2,F4,F8,FC2",8-13 inclusive,12,True
+demo-001,A,Right_Frontal_Alpha_ln_mean_psd,-26.987368485570602,ln(PSD / (1 V^2/Hz)),"Fp2,F4,F8,FC2",8-13 inclusive,12,True
+demo-001,A,Right_Frontal_Alpha_mean_db,-131.84575770806686,dB re 1 V^2/Hz,"Fp2,F4,F8,FC2",8-13 inclusive,12,True
+demo-001,A,Right_Frontal_Beta_mean_psd,2.0547187088213666e-13,V^2/Hz,"Fp2,F4,F8,FC2",13-30 inclusive,12,True
+demo-001,A,Right_Frontal_Beta_ln_mean_psd,-29.213467251695636,ln(PSD / (1 V^2/Hz)),"Fp2,F4,F8,FC2",13-30 inclusive,12,True
+demo-001,A,Right_Frontal_Beta_mean_db,-136.88597249998895,dB re 1 V^2/Hz,"Fp2,F4,F8,FC2",13-30 inclusive,12,True
+demo-001,A,FAA,-0.8718102342999821,ln(Right_Frontal alpha PSD / Left_Frontal alpha PSD),"L:Fp1,F3,F7,FC1;R:Fp2,F4,F8,FC2",8-13 inclusive,12,True
+demo-001,B,Frontal_Theta_mean_psd,2.119985680347683e-12,V^2/Hz,"Fp1,Fp2,F3,F4,Fz,FC1,FC2",4-8 inclusive,12,True
+demo-001,B,Frontal_Theta_ln_mean_psd,-26.87961178182042,ln(PSD / (1 V^2/Hz)),"Fp1,Fp2,F3,F4,Fz,FC1,FC2",4-8 inclusive,12,True
+demo-001,B,Frontal_Theta_mean_db,-129.98939885263923,dB re 1 V^2/Hz,"Fp1,Fp2,F3,F4,Fz,FC1,FC2",4-8 inclusive,12,True
+demo-001,B,Frontal_Alpha_mean_psd,3.0763203782038674e-12,V^2/Hz,"Fp1,Fp2,F3,F4,Fz,FC1,FC2",8-13 inclusive,12,True
+demo-001,B,Frontal_Alpha_ln_mean_psd,-26.507286915546313,ln(PSD / (1 V^2/Hz)),"Fp1,Fp2,F3,F4,Fz,FC1,FC2",8-13 inclusive,12,True
+demo-001,B,Frontal_Alpha_mean_db,-130.77252761522507,dB re 1 V^2/Hz,"Fp1,Fp2,F3,F4,Fz,FC1,FC2",8-13 inclusive,12,True
+demo-001,B,Frontal_Beta_mean_psd,3.8976941896008947e-13,V^2/Hz,"Fp1,Fp2,F3,F4,Fz,FC1,FC2",13-30 inclusive,12,True
+demo-001,B,Frontal_Beta_ln_mean_psd,-28.57322106407007,ln(PSD / (1 V^2/Hz)),"Fp1,Fp2,F3,F4,Fz,FC1,FC2",13-30 inclusive,12,True
+demo-001,B,Frontal_Beta_mean_db,-136.6146161913489,dB re 1 V^2/Hz,"Fp1,Fp2,F3,F4,Fz,FC1,FC2",13-30 inclusive,12,True
+demo-001,B,Left_Frontal_Theta_mean_psd,6.522895367091782e-13,V^2/Hz,"Fp1,F3,F7,FC1",4-8 inclusive,12,True
+demo-001,B,Left_Frontal_Theta_ln_mean_psd,-28.058287856848697,ln(PSD / (1 V^2/Hz)),"Fp1,F3,F7,FC1",4-8 inclusive,12,True
+demo-001,B,Left_Frontal_Theta_mean_db,-131.54187897964357,dB re 1 V^2/Hz,"Fp1,F3,F7,FC1",4-8 inclusive,12,True
+demo-001,B,Left_Frontal_Alpha_mean_psd,4.5115773018601936e-12,V^2/Hz,"Fp1,F3,F7,FC1",8-13 inclusive,12,True
+demo-001,B,Left_Frontal_Alpha_ln_mean_psd,-26.124374289219688,ln(PSD / (1 V^2/Hz)),"Fp1,F3,F7,FC1",8-13 inclusive,12,True
+demo-001,B,Left_Frontal_Alpha_mean_db,-130.43236213305872,dB re 1 V^2/Hz,"Fp1,F3,F7,FC1",8-13 inclusive,12,True
+demo-001,B,Left_Frontal_Beta_mean_psd,4.883933472238146e-13,V^2/Hz,"Fp1,F3,F7,FC1",13-30 inclusive,12,True
+demo-001,B,Left_Frontal_Beta_ln_mean_psd,-28.347655274339772,ln(PSD / (1 V^2/Hz)),"Fp1,F3,F7,FC1",13-30 inclusive,12,True
+demo-001,B,Left_Frontal_Beta_mean_db,-136.47744949541396,dB re 1 V^2/Hz,"Fp1,F3,F7,FC1",13-30 inclusive,12,True
+demo-001,B,Right_Frontal_Theta_mean_psd,3.95245778060457e-12,V^2/Hz,"Fp2,F4,F8,FC2",4-8 inclusive,12,True
+demo-001,B,Right_Frontal_Theta_ln_mean_psd,-26.25668350757808,ln(PSD / (1 V^2/Hz)),"Fp2,F4,F8,FC2",4-8 inclusive,12,True
+demo-001,B,Right_Frontal_Theta_mean_db,-129.25281859083213,dB re 1 V^2/Hz,"Fp2,F4,F8,FC2",4-8 inclusive,12,True
+demo-001,B,Right_Frontal_Alpha_mean_psd,1.894305316585776e-12,V^2/Hz,"Fp2,F4,F8,FC2",8-13 inclusive,12,True
+demo-001,B,Right_Frontal_Alpha_ln_mean_psd,-26.992168932157483,ln(PSD / (1 V^2/Hz)),"Fp2,F4,F8,FC2",8-13 inclusive,12,True
+demo-001,B,Right_Frontal_Alpha_mean_db,-131.489556590274,dB re 1 V^2/Hz,"Fp2,F4,F8,FC2",8-13 inclusive,12,True
+demo-001,B,Right_Frontal_Beta_mean_psd,2.0414261949777539e-13,V^2/Hz,"Fp2,F4,F8,FC2",13-30 inclusive,12,True
+demo-001,B,Right_Frontal_Beta_ln_mean_psd,-29.219957530148477,ln(PSD / (1 V^2/Hz)),"Fp2,F4,F8,FC2",13-30 inclusive,12,True
+demo-001,B,Right_Frontal_Beta_mean_db,-136.78073498717504,dB re 1 V^2/Hz,"Fp2,F4,F8,FC2",13-30 inclusive,12,True
+demo-001,B,FAA,-0.8677946429377954,ln(Right_Frontal alpha PSD / Left_Frontal alpha PSD),"L:Fp1,F3,F7,FC1;R:Fp2,F4,F8,FC2",8-13 inclusive,12,True
